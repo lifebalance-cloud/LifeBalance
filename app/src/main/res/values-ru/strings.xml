@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LifeBalance</string>
+    <string name="settings">Настройки</string>
+    <string name="color_scheme">Цветовая схема</string>
+    <string name="language">Язык</string>
+    <string name="theme_purple">Фиолетовая</string>
+    <string name="theme_blue">Синяя</string>
+    <string name="theme_green">Зелёная</string>
+    <string name="theme_orange">Оранжевая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_system">Системная</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_english">English</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_french">Français</string>
+    <string name="language_spanish">Español</string>
+    <string name="default_web_client_id">927055593016-2acud8n2e8i3dq9iclpfufqq5lh1sr5f.apps.googleusercontent.com</string>
+
+    <!-- AuthScreen -->
+    <string name="auth_title_login">Вход</string>
+    <string name="auth_title_register">Регистрация</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_display_name_optional">Имя (необязательно)</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_btn_login">Войти</string>
+    <string name="auth_btn_register">Зарегистрироваться</string>
+    <string name="auth_or">или</string>
+    <string name="auth_google_sign_in">Войти через Google</string>
+    <string name="auth_switch_to_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="auth_switch_to_login">Уже есть аккаунт? Войти</string>
+    <string name="auth_forgot_password">Забыли пароль?</string>
+    <string name="auth_google_success">Вход через Google выполнен успешно!</string>
+    <string name="auth_google_error">Ошибка входа через Google</string>
+    <string name="auth_google_account_null">Не удалось получить данные аккаунта Google</string>
+    <string name="auth_network_error">Ошибка сети. Проверьте подключение к интернету</string>
+    <string name="auth_sign_in_cancelled">Вход отменен</string>
+    <string name="auth_sign_in_required">Требуется вход</string>
+    <string name="auth_unknown_error">Неизвестная ошибка</string>
+    <string name="auth_google_error_message">Ошибка входа через Google: %1$s</string>
+    <string name="auth_unexpected_error">Неожиданная ошибка: %1$s</string>
+    <string name="auth_unknown_sign_in_error">Неизвестная ошибка при входе</string>
+    <string name="auth_login_success">Вход выполнен успешно!</string>
+    <string name="auth_register_success">Регистрация выполнена успешно!</string>
+    <string name="auth_generic_error">Произошла ошибка</string>
+    <string name="auth_google_launch_failed">Не удалось запустить вход через Google</string>
+    <string name="auth_google_launch_error">Ошибка запуска входа через Google: %1$s</string>
+    <string name="auth_enter_email_for_reset">Введите email для восстановления пароля</string>
+    <string name="auth_reset_email_sent">Письмо для восстановления пароля отправлено на %1$s</string>
+    <string name="auth_reset_email_error">Ошибка отправки письма</string>
+
+    <string name="main_goals">Главные цели</string>
+    <string name="by_area_of_life">по сферам жизни</string>
+
+    <!-- MainScreen -->
+    <string name="wheel_of_life_balance">Колесо баланса жизни</string>
+    <string name="delete_the_sphere">Удалить сферу?</string>
+    <string name="are_you_sure_you_want_to_delete_this_sphere">Вы уверены, что хотите удалить эту сферу?</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+
+    <!-- SphereList -->
+    <string name="assess">Оценить</string>
+    <string name="score_1">Ужасно (Сфера почти разрушена, всё вызывает боль, тревогу и хаос)</string>
+    <string name="score_2">Очень плохо (Постоянные трудности, мало что получается, много стресса)</string>
+    <string name="score_3">Плохо (Сфера слабая, проблемы повторяются, нет удовлетворения)</string>
+    <string name="score_4">Ниже среднего (Есть что-то хорошее, но в целом не устраивает, хочется перемен)</string>
+    <string name="score_5">Средне (Нормально, терпимо, но без радости. Могло бы быть лучше)</string>
+    <string name="score_6">Чуть выше среднего (В целом ОК, но есть проблемы и нерешённые вопросы)</string>
+    <string name="score_7">Хорошо (Большая часть функционирует нормально, есть удовлетворение)</string>
+    <string name="score_8">Очень хорошо (Сфера сильная, даёт радость, почти всё под контролем)</string>
+    <string name="score_9">Отлично (Высокое качество, стабильность, высокое удовлетворение)</string>
+    <string name="score_10">Идеально (Лучше и не придумать)</string>
+    <string name="assess_life_area">Оценить сферу</string>
+
+    <!-- SphereEditDialog -->
+    <string name="add_area">Добавить сферу</string>
+    <string name="edit_the_area">Редактировать сферу</string>
+    <string name="name">Название</string>
+    <string name="select_color">Выберите цвет:</string>
+    <string name="save">сохранить</string>
+    <string name="saved">Сохранено</string>
+
+    <!-- LifeBalanceRepository -->
+    <string name="sphere_health">Здоровье</string>
+    <string name="sphere_family">Семья</string>
+    <string name="sphere_work">Работа</string>
+    <string name="sphere_friends">Друзья</string>
+    <string name="sphere_finance">Финансы</string>
+    <string name="sphere_rest">Отдых</string>
+    <string name="sphere_spirituality">Духовность</string>
+    <string name="sphere_self_dev">Саморазвитие</string>
+
+    <!-- GoalsDetailsScreen -->
+    <string name="for_area">для сферы %1$s</string>
+    <string name="no_goals_added_yet">Пока нет целей</string>
+    <string name="deadline_prefix">До:</string>
+    <string name="edit">Редактировать</string>
+    <string name="add_photo">Прикрепить фото</string>
+    <string name="add_link">Прикрепить ссылку</string>
+    <string name="move_to_tasks">Переместить в дела</string>
+    <string name="edit_goal">Редактировать цель</string>
+    <string name="goal_text">Текст цели</string>
+    <string name="link_url">Ссылка (URL)</string>
+    <string name="change_date">Изменить дату</string>
+    <string name="deadline_text">Дедлайн до %1$s</string>
+    <string name="limit_reached">Достигнут лимит</string>
+    <string name="photos_added">Добавлено: %1$d/%2$d</string>
+    <string name="saving">Сохранение...</string>
+    <string name="delete_goal">Удалить цель?</string>
+    <string name="Are_you_sure_you_want_to_delete_this_goal">Вы уверены, что хотите удалить эту цель?</string>
+
+    <!-- GoalsCreateDialog -->
+    <string name="improve_area">Улучшить сферу</string>
+    <string name="create_goal">Создать цель</string>
+    <string name="select_date">Выбрать дату</string>
+
+    <!-- HomeScreen -->
+    <plurals name="tasks_count">
+        <item quantity="zero">Дел нет</item>
+        <item quantity="one">%d дело</item>
+        <item quantity="few">%d дела</item>
+        <item quantity="many">%d дел</item>
+        <item quantity="other">%d дел</item>
+    </plurals>
+    <string name="tasks_all_completed">Дела решены</string>
+    <string name="task_one_unsolved">1 нерешенное дело</string>
+    <string name="add_task">Записать дело</string>
+    <string name="repeat_task">Повтор дела</string>
+    <string name="repeat_end_date">Дата окончания повтора</string>
+    <string name="automove_tasks">Автоперенос дел</string>
+    <string name="select">Выбрать</string>
+    <string name="edit_task">Редактировать дело</string>
+    
+    <!-- Repeat types -->
+    <string name="repeat_none">Не повторяется</string>
+    <string name="repeat_daily">Каждый день</string>
+    <string name="repeat_weekdays">Каждый день ПН-ПТ</string>
+    <string name="repeat_weekly">Каждую неделю</string>
+    <string name="repeat_monthly">Каждый месяц</string>
+    <string name="repeat_yearly">Каждый год</string>
+    
+    <!-- Days of week abbreviations -->
+    <string name="day_mon">ПН</string>
+    <string name="day_tue">ВТ</string>
+    <string name="day_wed">СР</string>
+    <string name="day_thu">ЧТ</string>
+    <string name="day_fri">ПТ</string>
+    <string name="day_sat">СБ</string>
+    <string name="day_sun">ВС</string>
+
+    <string name="move">Перенести</string>
+    <string name="copy">Копировать</string>
+    <string name="send">Отправить</string>
+    
+    <!-- Send task messages -->
+    <string name="send_task_chooser_title">Отправить дело в:</string>
+    <string name="no_apps_for_sending">Нет приложений для отправки текста</string>
+    <string name="apps_not_found">Приложения не найдены</string>
+    <string name="error_opening_messengers">Ошибка при открытии мессенджеров</string>
+
+    <!-- Speech Recognition -->
+    <string name="speech_prompt">Говорите…</string>
+    <string name="speech_recognition_error">Ошибка при запуске распознавания речи</string>
+    <string name="speech_recognition_not_available">Распознавание речи не доступно на этом устройстве</string>
+
+    <!-- IdeasScreen -->
+    <string name="ideas">Идеи</string>
+    <string name="create_folder">Создать папку</string>
+    <string name="folder_name">Название папки</string>
+    <string name="create">Создать</string>
+    <string name="edit_folder">Редактировать папку</string>
+    <string name="delete_folder">Удалить папку?</string>
+    <string name="are_you_sure_you_want_to_delete_this_folder">Вы уверены что хотите удалить эту папку? После удаления все заметки данной папки будут безвозвратно утеряны!</string>
+    <string name="search">Поиск</string>
+    <string name="enter_a_word_to_search">Введите слово для поиска...</string>
+    <string name="close">Закрыть</string>
+    <string name="add_note">Добавить заметку</string>
+    <string name="write_down_your_idea">Запишите вашу идею</string>
+    
+    <!-- SettingsScreen -->
+    <string name="profile">Профиль</string>
+    <string name="not_authorized">Не авторизован</string>
+    <string name="last_sync">Последняя синхронизация: %1$s</string>
+    <string name="sync_completed">Синхронизация завершена успешно</string>
+    <string name="sync_error">Ошибка синхронизации: %1$s</string>
+    <string name="error">Ошибка: %1$s</string>
+    <string name="error_try_again">Попробуйте позже</string>
+    <string name="sync">Синхронизация</string>
+    <string name="user">Пользователь</string>
+    <string name="user_not_authorized">Пользователь не авторизован</string>
+    <string name="sign_out">Выйти</string>
+    <string name="never">Никогда</string>
+    <string name="just_now">Только что</string>
+    <string name="days_ago">%1$d дн. назад</string>
+    <string name="hours_ago">%1$d ч. назад</string>
+    <string name="minutes_ago">%1$d мин. назад</string>
+
+    <string name="ok">OK</string>
+    <string name="voice_record_description">Запись текста голосом</string>
+    <string name="search_results">Результаты поиска: \"%1$s\"</string>
+    <string name="back">Назад</string>
+    <string name="nothing_found">Ничего не найдено</string>
+    <string name="cancel_uppercase">ОТМЕНА</string>
+    <string name="save_uppercase">СОХРАНИТЬ</string>
+    <string name="delete_uppercase">УДАЛИТЬ</string>
+    <string name="no_notes_in_folder">Пока нет заметок в этой папке</string>
+    <string name="calendar">Календарь</string>
+
+    <!-- DreamScreen -->
+    <string name="sector_wealth">Богатство</string>
+    <string name="sector_fame">Слава, признание</string>
+    <string name="sector_relationships">Отношения, любовь, брак</string>
+    <string name="sector_home">Дом, семья</string>
+    <string name="sector_state">Я и мое состояние</string>
+    <string name="sector_children">Дети, творчество</string>
+    <string name="sector_knowledge">Знания, навыки</string>
+    <string name="sector_career">Карьера</string>
+    <string name="sector_travel">Путешествия</string>
+
+    <string name="vision_board">Карта желаний</string>
+    <string name="visualize_dreams_and_desires">Визуализируем мечты и желания</string>
+    <string name="add_affirmations">Добавить аффирмации</string>
+    <string name="write_down_your_affirmation">Запишите свою аффирмацию</string>
+
+    <!-- CalendarScreen -->
+    <string name="no_goals_or_tasks_for_this_date">Нет целей и дел на эту дату</string>
+    <string name="tasks">Дела</string>
+    <!-- AI -->
+    <string name="ai_assistant">AI Помощник</string>
+    <string name="getting_ai_response">Получаем ответ от AI...</string>
+    <string name="gentle_overview_of_what_matters_right">Мягкий обзор того, что сейчас важно и заслуживает внимания</string>
+    <string name="text_too_long_for_analysis">Текст слишком длинный для анализа. Сократите до 700 токенов</string>
+    <string name="save_goal">Сохранить цель</string>
+
+    <string name="balance_analysis">Анализ баланса жизни</string>
+    <string name="weak_spheres">Просевшие сферы</string>
+    <string name="suggested_goals">Предложенные цели</string>
+    <string name="small_steps">Маленькие шаги</string>
+    <string name="add_goal">Добавить цель</string>
+    <string name="ai_request_limit_exceeded">Превышен лимит запросов. Вы можете сделать не более 5 запросов в сутки.</string>
+    <string name="ai_requests_remaining">Осталось запросов: %d</string>
+    <string name="ai_notes_request_limit_exceeded">Превышен лимит запросов. Не более 20 запросов к AI в сутки на странице идей.</string>
+    <string name="ai_consent_title">Использование AI</string>
+    <string name="ai_consent_message">Для подсказок по балансу и заметкам часть данных (названия сфер, цели, текст заметок) отправляется на наш сервер для анализа с помощью искусственного интеллекта. Обработка выполняется согласно Политике конфиденциальности. Продолжая, вы соглашаетесь на такую обработку.</string>
+    <string name="ai_consent_accept">Принять</string>
+    <string name="ai_consent_decline">Отклонить</string>
+    <string name="premium_required_title">Премиум</string>
+    <string name="premium_required_message">Данная функция доступна только владельцам премиум-аккаунта.</string>
+    <string name="premium_required_subscribe">Оформить премиум</string>
+    <string name="premium_hint_ai_balance">AI-помощник: проанализирует Ваше колесо баланса и подскажет, какие сферы сейчас проседают сильнее всего.\n\n
+    Вы получите:\n
+    🎯 Персональные цели для улучшения каждой слабой сферы\n
+    📈 Понятный план, с чего начать\n
+    👣 Маленькие ежедневные шаги, которые реально выполнять\n\n
+    Не просто советы — а конкретные действия для реальных изменений.</string>
+    <string name="premium_hint_ai_notes">Больше чем заметки: AI-помощник понимает ваши записи, поддерживает, объясняет и общается с вами.</string>
+    <string name="premium_hint_pdf">Экспортируйте все свои данные в один PDF-файл: колесо баланса жизни, цели, ежедневные дела, идеи и заметки. Удобно для анализа, планирования и сохранения прогресса.</string>
+    <string name="premium_hint_goals">В бесплатной версии можно создавать до 5 главных целей.
+Добавляйте больше целей и управляйте всем списком с Премиум-аккаунтом.</string>
+    <string name="premium_hint_spheres">В бесплатной версии доступно 8 сфер колеса баланса жизни.
+Добавляйте новые сферы и настраивайте колесо под себя с Премиум-аккаунтом.</string>
+
+    <string name="feedback_dialog_title2">В данном разделе вы можете оставить свои пожелания, предложения или замечания</string>
+    <string name="feedback_contact_email_label">Написать на почту</string>
+    <string name="feedback_contact_telegram_label">Написать в Telegram</string>
+    <string name="feedback_contact_whatsapp_label">Написать в WhatsApp</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="feedback_dialog_title">Обратная связь</string>
+
+    <!-- PDF Export -->
+    <string name="generate_pdf">Сформировать PDF</string>
+    <string name="pdf_export_dialog_title">Экспорт в PDF</string>
+    <string name="pdf_export_period">Период данных</string>
+    <string name="pdf_period_all">Все данные</string>
+    <string name="pdf_period_custom">Указать период</string>
+    <string name="pdf_start_date">Дата начала</string>
+    <string name="pdf_end_date">Дата окончания</string>
+    <string name="pdf_sections_include">Включить в отчёт</string>
+    <string name="pdf_generating">Формирование PDF…</string>
+    <string name="pdf_success">PDF сформирован</string>
+    <string name="pdf_error">Ошибка создания PDF: %1$s</string>
+    <string name="pdf_share">Поделиться</string>
+    <string name="pdf_open">Открыть</string>
+    <string name="ideas_title">ИДЕИ</string>
+    <string name="no_ideas">Нет идей</string>
+    <string name="daily_tasks">ЕЖЕДНЕВНЫЕ ДЕЛА</string>
+    <string name="no_tasks_for_the_selected_period">Нет дел за выбранный период</string>
+    <string name="moved_from_goals">Перенесено из целей</string>
+    <string name="added_from_life_balance">Добавлено из анализа баланса жизни</string>
+    <string name="no_goals">Нет целей</string>
+    <string name="no_data">Нет данных</string>
+    <string name="lifebalance_planner">ПЛАННЕР "LifeBalance"</string>
+    <string name="period_all_data">Период: Все данные</string>
+    <string name="period">Период</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

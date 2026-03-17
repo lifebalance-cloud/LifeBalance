@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Data extraction rules for LifeBalance app.
+   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+   for details.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Включаем SharedPreferences для синхронного доступа к настройкам языка и темы -->
+        <!-- Важно: настройки языка должны сохраняться при бэкапе в облако -->
+        <include domain="sharedpref" path="app_settings_sync.xml"/>
+        
+        <!-- Включаем DataStore файлы с настройками приложения -->
+        <!-- app_settings содержит: язык, тему, статус первого входа -->
+        <!-- lifebalance_settings содержит: состояние чекбоксов целей -->
+        <include domain="file" path="datastore/app_settings.preferences_pb"/>
+        <include domain="file" path="datastore/lifebalance_settings.preferences_pb"/>
+    </cloud-backup>
+    
+    <device-transfer>
+        <!-- При переносе на новое устройство также включаем настройки -->
+        <!-- Важно: настройки языка должны переноситься на новое устройство -->
+        <include domain="sharedpref" path="app_settings_sync.xml"/>
+        <include domain="file" path="datastore/app_settings.preferences_pb"/>
+        <include domain="file" path="datastore/lifebalance_settings.preferences_pb"/>
+    </device-transfer>
+</data-extraction-rules>

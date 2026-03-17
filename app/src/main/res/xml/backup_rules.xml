@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Backup rules file for LifeBalance app.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices older than API 31
+   See https://developer.android.com/about/versions/12/backup-restore
+-->
+<full-backup-content xmlns:tools="http://schemas.android.com/tools">
+    <!-- Включаем SharedPreferences для синхронного доступа к настройкам языка и темы -->
+    <!-- Важно: настройки языка должны сохраняться при бэкапе -->
+    <include domain="sharedpref" path="app_settings_sync.xml"/>
+    
+    <!-- Включаем DataStore файлы с настройками приложения -->
+    <!-- app_settings содержит: язык, тему, статус первого входа -->
+    <!-- lifebalance_settings содержит: состояние чекбоксов целей -->
+    <include domain="file" path="datastore/app_settings.preferences_pb"/>
+    <include domain="file" path="datastore/lifebalance_settings.preferences_pb"/>
+</full-backup-content>

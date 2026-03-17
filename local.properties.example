@@ -1,0 +1,8 @@
+# Контакты поддержки для экрана «Обратная связь»
+# Скопируйте эти строки в local.properties (файл уже есть, добавьте в конец)
+# и замените значения на реальные email, Telegram и WhatsApp.
+# local.properties в .gitignore и не коммитится в репозиторий.
+
+contact_email=contact_email
+contact_telegram=contact_telegram
+contact_whatsapp=contact_whatsapp

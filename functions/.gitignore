@@ -1,0 +1,18 @@
+# Node.js / Firebase Functions
+node_modules/
+.env
+
+# Локальные файлы и настройки
+*.local
+*.log
+
+# Android Studio
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+
+# Кэш Android
+*.apk
+*.keystore

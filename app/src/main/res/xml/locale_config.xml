@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Поддерживаемые языки приложения -->
+    <locale android:name="ru"/> <!-- Русский -->
+    <locale android:name="uk"/> <!-- Украинский -->
+    <locale android:name="en"/> <!-- Английский -->
+    <locale android:name="de"/> <!-- Немецкий -->
+    <locale android:name="fr"/> <!-- Французский -->
+    <locale android:name="es"/> <!-- Испанский -->
+</locale-config>
+

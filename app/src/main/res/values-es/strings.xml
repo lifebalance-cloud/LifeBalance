@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Settings -->
+    <string name="app_name">LifeBalance</string>
+    <string name="settings">Configuración</string>
+    <string name="color_scheme">Esquema de colores</string>
+    <string name="language">Idioma</string>
+    <string name="theme_purple">Morado</string>
+    <string name="theme_blue">Azul</string>
+    <string name="theme_green">Verde</string>
+    <string name="theme_orange">Naranja</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_system">Sistema</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_english">English</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_french">Français</string>
+    <string name="language_spanish">Español</string>
+    <string name="default_web_client_id">927055593016-2acud8n2e8i3dq9iclpfufqq5lh1sr5f.apps.googleusercontent.com</string>
+
+    <!-- AuthScreen -->
+    <string name="auth_title_login">Iniciar sesión</string>
+    <string name="auth_title_register">Registrarse</string>
+    <string name="auth_email">Correo electrónico</string>
+    <string name="auth_display_name_optional">Nombre (opcional)</string>
+    <string name="auth_password">Contraseña</string>
+    <string name="auth_btn_login">Iniciar sesión</string>
+    <string name="auth_btn_register">Registrarse</string>
+    <string name="auth_or">o</string>
+    <string name="auth_google_sign_in">Iniciar sesión con Google</string>
+    <string name="auth_switch_to_register">¿No tienes cuenta? Regístrate</string>
+    <string name="auth_switch_to_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="auth_forgot_password">¿Olvidaste la contraseña?</string>
+    <string name="auth_google_success">¡Sesión iniciada con Google correctamente!</string>
+    <string name="auth_google_error">Error al iniciar sesión con Google</string>
+    <string name="auth_google_account_null">No se pudieron obtener los datos de la cuenta de Google</string>
+    <string name="auth_network_error">Error de red. Comprueba tu conexión a internet</string>
+    <string name="auth_sign_in_cancelled">Inicio de sesión cancelado</string>
+    <string name="auth_sign_in_required">Inicio de sesión requerido</string>
+    <string name="auth_unknown_error">Error desconocido</string>
+    <string name="auth_google_error_message">Error al iniciar sesión con Google: %1$s</string>
+    <string name="auth_unexpected_error">Error inesperado: %1$s</string>
+    <string name="auth_unknown_sign_in_error">Error desconocido al iniciar sesión</string>
+    <string name="auth_login_success">¡Sesión iniciada correctamente!</string>
+    <string name="auth_register_success">¡Registro completado correctamente!</string>
+    <string name="auth_generic_error">Ocurrió un error</string>
+    <string name="auth_google_launch_failed">No se pudo iniciar el inicio de sesión con Google</string>
+    <string name="auth_google_launch_error">Error al iniciar sesión con Google: %1$s</string>
+    <string name="auth_enter_email_for_reset">Introduce el correo para restablecer la contraseña</string>
+    <string name="auth_reset_email_sent">Correo de restablecimiento enviado a %1$s</string>
+    <string name="auth_reset_email_error">Error al enviar el correo</string>
+
+    <!-- GoalsScreen -->
+    <string name="main_goals">Objetivos principales</string>
+    <string name="by_area_of_life">por área de vida</string>
+
+    <!-- MainScreen -->
+    <string name="wheel_of_life_balance">Rueda del equilibrio de vida</string>
+    <string name="delete_the_sphere">¿Eliminar la esfera?</string>
+    <string name="are_you_sure_you_want_to_delete_this_sphere">¿Está seguro de que desea eliminar esta esfera?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+
+    <!-- SphereList -->
+    <string name="assess">Evaluar</string>
+    <string name="score_1">Terrible (El área está casi destruida, causando dolor, ansiedad y caos)</string>
+    <string name="score_2">Muy malo (Dificultades constantes, poco éxito, mucho estrés)</string>
+    <string name="score_3">Malo (Área débil, problemas recurrentes, sin satisfacción)</string>
+    <string name="score_4">Por debajo del promedio (Algunas cosas buenas, pero en general insatisfactorio)</string>
+    <string name="score_5">Promedio (Bien, tolerable, pero sin alegría)</string>
+    <string name="score_6">Ligeramente por encima del promedio (Mayormente bien, pero persisten problemas)</string>
+    <string name="score_7">Bueno (Funciona mayormente bien, satisfactorio)</string>
+    <string name="score_8">Muy bueno (Área fuerte, alegre, casi bajo control)</string>
+    <string name="score_9">Excelente (Alta calidad, estable, muy satisfactorio)</string>
+    <string name="score_10">Perfecto (No podría ser mejor)</string>
+    <string name="assess_life_area">Evaluar área de vida</string>
+
+    <!-- SphereEditDialog -->
+    <string name="add_area">Agregar área</string>
+    <string name="edit_the_area">Editar el área</string>
+    <string name="name">Nombre</string>
+    <string name="select_color">Seleccionar color:</string>
+    <string name="save">Guardar</string>
+    <string name="saved">Guardado</string>
+
+    <!-- LifeBalanceRepository -->
+    <string name="sphere_health">Salud</string>
+    <string name="sphere_family">Familia</string>
+    <string name="sphere_work">Trabajo</string>
+    <string name="sphere_friends">Amigos</string>
+    <string name="sphere_finance">Finanzas</string>
+    <string name="sphere_rest">Descanso</string>
+    <string name="sphere_spirituality">Espiritualidad</string>
+    <string name="sphere_self_dev">Desarrollo personal</string>
+
+    <!-- GoalsDetailsScreen -->
+    <string name="for_area">para el área %1$s</string>
+    <string name="no_goals_added_yet">Aún no se han agregado objetivos</string>
+    <string name="deadline_prefix">Vencimiento:</string>
+    <string name="edit">Editar</string>
+    <string name="add_photo">Agregar foto</string>
+    <string name="add_link">Agregar enlace</string>
+    <string name="move_to_tasks">Mover a tareas</string>
+    <string name="edit_goal">Editar objetivo</string>
+    <string name="goal_text">Texto del objetivo</string>
+    <string name="link_url">Enlace (URL)</string>
+    <string name="change_date">Cambiar fecha</string>
+    <string name="deadline_text">Fecha límite hasta %1$s</string>
+    <string name="limit_reached">Límite alcanzado</string>
+    <string name="photos_added">Agregado: %1$d/%2$d</string>
+    <string name="saving">Guardando…</string>
+    <string name="delete_goal">¿Eliminar objetivo?</string>
+    <string name="Are_you_sure_you_want_to_delete_this_goal">¿Está seguro de que desea eliminar este objetivo?</string>
+
+    <!-- GoalsCreateDialog -->
+    <string name="improve_area">Mejorar área</string>
+    <string name="create_goal">Crear objetivo</string>
+    <string name="select_date">Seleccionar fecha</string>
+
+    <!-- HomeScreen -->
+    <plurals name="tasks_count">
+        <item quantity="zero">Sin tareas</item>
+        <item quantity="one">%d tarea</item>
+        <item quantity="other">%d tareas</item>
+    </plurals>
+    <string name="tasks_all_completed">Todas las tareas completadas</string>
+    <string name="task_one_unsolved">1 tarea sin resolver</string>
+    <string name="add_task">Agregar tarea</string>
+    <string name="repeat_task">Repetir tarea</string>
+    <string name="repeat_end_date">Fecha de fin de repetición</string>
+    <string name="automove_tasks">Mover tareas automáticamente</string>
+    <string name="select">Seleccionar</string>
+    <string name="edit_task">Editar tarea</string>
+    
+    <!-- Repeat types -->
+    <string name="repeat_none">Sin repetición</string>
+    <string name="repeat_daily">Cada día</string>
+    <string name="repeat_weekdays">Cada día laborable (Lun-Vie)</string>
+    <string name="repeat_weekly">Cada semana</string>
+    <string name="repeat_monthly">Cada mes</string>
+    <string name="repeat_yearly">Cada año</string>
+    
+    <!-- Days of week abbreviations -->
+    <string name="day_mon">LU</string>
+    <string name="day_tue">MA</string>
+    <string name="day_wed">MI</string>
+    <string name="day_thu">JU</string>
+    <string name="day_fri">VI</string>
+    <string name="day_sat">SÁ</string>
+    <string name="day_sun">DO</string>
+
+    <string name="move">Mover</string>
+    <string name="copy">Copiar</string>
+    <string name="send">Enviar</string>
+    
+    <!-- Send task messages -->
+    <string name="send_task_chooser_title">Enviar tarea a:</string>
+    <string name="no_apps_for_sending">No hay aplicaciones disponibles para enviar texto</string>
+    <string name="apps_not_found">Aplicaciones no encontradas</string>
+    <string name="error_opening_messengers">Error al abrir mensajerías</string>
+
+    <!-- Speech Recognition -->
+    <string name="speech_prompt">Habla…</string>
+    <string name="speech_recognition_error">Error al iniciar el reconocimiento de voz</string>
+    <string name="speech_recognition_not_available">El reconocimiento de voz no está disponible en este dispositivo</string>
+
+    <!-- IdeasScreen -->
+    <string name="ideas">Ideas</string>
+    <string name="create_folder">Crear carpeta</string>
+    <string name="folder_name">Nombre de la carpeta</string>
+    <string name="create">Crear</string>
+    <string name="edit_folder">Editar carpeta</string>
+    <string name="delete_folder">¿Eliminar carpeta?</string>
+    <string name="are_you_sure_you_want_to_delete_this_folder">¿Está seguro de que desea eliminar esta carpeta? ¡Todas las notas de esta carpeta se perderán permanentemente!</string>
+    <string name="search">Buscar</string>
+    <string name="enter_a_word_to_search">Ingrese una palabra para buscar…</string>
+    <string name="close">Cerrar</string>
+    <string name="add_note">Agregar nota</string>
+    <string name="write_down_your_idea">Escriba su idea</string>
+    <string name="voice_record_description">Grabación de voz</string>
+    
+    <!-- SettingsScreen -->
+    <string name="profile">Perfil</string>
+    <string name="not_authorized">No autorizado</string>
+    <string name="last_sync">Última sincronización: %1$s</string>
+    <string name="sync_completed">Sincronización completada exitosamente</string>
+    <string name="sync_error">Error de sincronización: %1$s</string>
+    <string name="error">Error: %1$s</string>
+    <string name="error_try_again">Por favor, inténtelo más tarde</string>
+    <string name="sync">Sincronizar</string>
+    <string name="user">Usuario</string>
+    <string name="user_not_authorized">Usuario no autorizado</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="never">Nunca</string>
+    <string name="just_now">Justo ahora</string>
+    <string name="days_ago">hace %1$d días</string>
+    <string name="hours_ago">hace %1$d horas</string>
+    <string name="minutes_ago">hace %1$d minutos</string>
+    <string name="ok">OK</string>
+    <string name="search_results">Resultados de búsqueda: \"%1$s\"</string>
+    <string name="back">Atrás</string>
+    <string name="nothing_found">Nada encontrado</string>
+    <string name="cancel_uppercase">CANCELAR</string>
+    <string name="save_uppercase">GUARDAR</string>
+    <string name="delete_uppercase">ELIMINAR</string>
+    <string name="no_notes_in_folder">Aún no hay notas en esta carpeta</string>
+    <string name="calendar">Calendario</string>
+
+    <!-- DreamScreen -->
+    <string name="sector_wealth">Riqueza</string>
+    <string name="sector_fame">Fama, reconocimiento</string>
+    <string name="sector_relationships">Relaciones, amor, matrimonio</string>
+    <string name="sector_home">Hogar, familia</string>
+    <string name="sector_state">Yo y mi bienestar</string>
+    <string name="sector_children">Niños, creatividad</string>
+    <string name="sector_knowledge">Conocimientos, habilidades</string>
+    <string name="sector_career">Carrera</string>
+    <string name="sector_travel">Viajes</string>
+
+    <string name="vision_board">Mapa de deseos</string>
+    <string name="visualize_dreams_and_desires">Visualizamos sueños y deseos</string>
+    <string name="add_affirmations">Agregar afirmaciones</string>
+    <string name="write_down_your_affirmation">Escribe tu afirmación</string>
+
+    <!-- CalendarScreen -->
+    <string name="no_goals_or_tasks_for_this_date">No hay objetivos ni tareas para esta fecha</string>
+    <string name="tasks">Tareas</string>
+    <!-- AI -->
+    <string name="ai_assistant">Asistente de IA</string>
+    <string name="getting_ai_response">Obteniendo respuesta de la IA…</string>
+
+    <string name="balance_analysis">Análisis del equilibrio de vida</string>
+    <string name="weak_spheres">Áreas débiles</string>
+    <string name="suggested_goals">Objetivos sugeridos</string>
+    <string name="small_steps">Pequeños pasos</string>
+    <string name="add_goal">Añadir meta</string>
+    <string name="ai_request_limit_exceeded">Límite de solicitudes excedido. No puedes hacer más de 5 solicitudes por día.</string>
+    <string name="ai_requests_remaining">Solicitudes restantes: %d</string>
+    <string name="ai_notes_request_limit_exceeded">Límite de solicitudes excedido. No puedes hacer más de 20 solicitudes de IA por día en la página de ideas.</string>
+    <string name="premium_required_title">Premium</string>
+    <string name="premium_required_message">Esta función solo está disponible para los propietarios de una cuenta premium.</string>
+    <string name="premium_required_subscribe">Obtener Premium</string>
+    <string name="premium_hint_ai_balance">Asistente de IA: analizará tu rueda del equilibrio y te dirá qué áreas están bajando más en este momento.\n\n
+        Recibirás:\n
+        🎯 Objetivos personalizados para mejorar cada área débil\n
+        📈 Un plan claro para saber por dónde empezar\n
+        👣 Pequeños pasos diarios que son реально alcanzables\n\n
+        No solo consejos — sino acciones concretas para cambios reales.</string>
+    <string name="premium_hint_ai_notes">Más que notas: el asistente de IA comprende tus entradas, te apoya, explica y se comunica contigo.</string>
+    <string name="premium_hint_pdf">Exporta todos tus datos en un único archivo PDF: rueda de equilibrio de vida, metas, tareas diarias, ideas y notas. Conveniente para análisis, planificación y seguimiento de tu progreso.</string>
+    <string name="premium_hint_goals">En la versión gratuita, puedes crear hasta 5 objetivos principales.
+Agrega más objetivos y gestiona toda la lista con una cuenta Premium.</string>
+    <string name="premium_hint_spheres">La versión gratuita incluye 8 áreas de la rueda del equilibrio de vida.
+Añade nuevas áreas y personaliza la rueda con una cuenta Premium.</string>
+
+    <string name="gentle_overview_of_what_matters_right">Una visión suave de lo que es importante ahora y merece atención</string>
+    <string name="text_too_long_for_analysis">El texto es demasiado largo para el análisis. Reduzca a 700 tokens</string>
+    <string name="save_goal">Guardar objetivo</string>
+
+    <string name="feedback_dialog_title2">En esta sección, puedes dejar tus deseos, sugerencias y comentarios</string>
+    <string name="feedback_contact_email_label">Email</string>
+    <string name="feedback_contact_telegram_label">Telegrama</string>
+    <string name="feedback_contact_whatsapp_label">WhatsApp</string>
+    <string name="feedback_dialog_title">Retroalimentación</string>
+    <string name="feedback">Retroalimentación</string>
+
+    <!-- PDF Export -->
+    <string name="generate_pdf">Generar PDF</string>
+    <string name="pdf_export_dialog_title">Exportar a PDF</string>
+    <string name="pdf_export_period">Período de datos</string>
+    <string name="pdf_period_all">Todos los datos</string>
+    <string name="no_ideas">No hay ideas</string>
+    <string name="pdf_period_custom">Seleccionar período</string>
+    <string name="pdf_start_date">Fecha de inicio</string>
+    <string name="pdf_end_date">Fecha de finalización</string>
+    <string name="pdf_sections_include">Incluir en el informe</string>
+    <string name="pdf_share">Compartir</string>
+    <string name="pdf_success">PDF generado</string>
+    <string name="pdf_generating">Generando PDF…</string>
+    <string name="pdf_error">Error al crear PDF: %1$s</string>
+    <string name="pdf_open">Abrir</string>
+    <string name="ideas_title">IDEAS</string>
+    <string name="daily_tasks">TAREAS DIARIAS</string>
+    <string name="no_tasks_for_the_selected_period">No hay tareas para el período seleccionado</string>
+    <string name="moved_from_goals">Trasladado desde objetivos</string>
+    <string name="added_from_life_balance">Añadido del análisis del equilibrio de vida</string>
+    <string name="no_goals">No hay metas</string>
+    <string name="no_data">No hay datos</string>
+    <string name="lifebalance_planner">Planificador "LifeBalance"</string>
+    <string name="period_all_data">Periode: Todos los datos</string>
+    <string name="period">Periode</string>
+
+
+</resources>
